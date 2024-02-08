@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  hermes-project:
+    container_name: hermes-project
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data/model:/app/data/model:ro
+    ports:
+      - 7860:7860
+    restart: always
