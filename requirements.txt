@@ -89,7 +89,7 @@ soupsieve==2.5
 starlette==0.36.3
 tensorboard==2.15.2
 tensorboard-data-server==0.7.2
-tensorflow==2.15.0.post1
+tensorflow==2.15.0.post1 # Change to 2.15.0rc1 for compatibility with RPI 4
 tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.36.0
 termcolor==2.4.0
