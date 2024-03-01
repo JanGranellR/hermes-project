@@ -11,6 +11,8 @@ RUN pip install -r requirements.txt
 
 COPY config /app/config
 COPY test /app/test
+COPY models /app/models
+COPY utils /app/utils
 COPY app.py /app
 
 EXPOSE 7860
